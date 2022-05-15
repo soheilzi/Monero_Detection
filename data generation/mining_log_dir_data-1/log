@@ -4,21 +4,22 @@
 [1;32m * [0m[1;37m1GB PAGES    [0m[1;33mdisabled[0m[0m
 [1;32m * [0m[1;37mCPU          Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz (1)[0m [1;32m64-bit[0m [1;32mAES[0m
 [1;37m                [0m[1;30mL2:[0m[1;37m0.5 MB[0m[1;30m L3:[0m[1;37m4.0 MB[0m[1;36m 2[0mC[1;30m/[0m[1;36m4[0mT[1;30m NUMA:[0m[1;36m1[0m[0m
-[1;32m * [0m[1;37mMEMORY       [0m[1;36m5.0/7.6[0m[0;36m GB[0m[1;30m (65%)[0m[0m
+[1;32m * [0m[1;37mMEMORY       [0m[1;36m5.1/7.6[0m[0;36m GB[0m[1;30m (67%)[0m[0m
 [1;32m * [0m[1;37mDONATE       [0m[1;37m1%[0m[0m
 [1;32m * [0m[1;37mASSEMBLY     auto:[1;32mintel[0m[0m[0m
 [1;32m * [0m[1;37mPOOL #1      [0m[1;32mpool.minexmr.com:443[0m algo [1;37mauto[0m[0m
 [1;32m * [0m[1;37mCOMMANDS     [0m[45;1mh[0m[1;37mashrate, [0m[45;1mp[0m[1;37mause, [0m[45;1mr[0m[1;37mesume, [0m[1;37mre[0m[45m[1;37ms[0m[1;37mults, [0m[45;1mc[0m[1;37monnection[0m[0m
 [1;32m * [0m[1;37mOPENCL       [0m[1;31mdisabled[0m[0m
 [1;32m * [0m[1;37mCUDA         [0m[1;31mdisabled[0m[0m
-[2022-05-15 18:28:35[1;30m.350[0m] [44;1m[1;37m net     [0m [1;37muse pool [0m[1;36mpool.minexmr.com:443 [0m[1;32mTLSv1.3[0m [1;30m94.130.165.87[0m[0m
-[2022-05-15 18:28:35[1;30m.350[0m] [44;1m[1;37m net     [0m [1;30mfingerprint (SHA-256): "f8cb85d6dc856748d376b48e6b87f90900b3f683fe505ef59de570296761d14b"[0m[0m
-[2022-05-15 18:28:35[1;30m.350[0m] [44;1m[1;37m net     [0m [1;35mnew job[0m from [1;37mpool.minexmr.com:443[0m diff [1;37m250012[0m algo [1;37mrx/0[0m height [1;37m2624029[0m (38 tx)[0m
-[2022-05-15 18:28:35[1;30m.350[0m] [46;1m[1;37m cpu     [0m use [1;37margon2[0m implementation [1;32mAVX2[0m
-[2022-05-15 18:28:35[1;30m.365[0m] [0;33m[43;1m[1;37m msr     [0m [1;33mcannot read MSR 0x000001a4[0m[0m
-[2022-05-15 18:28:35[1;30m.365[0m] [0;31m[43;1m[1;37m msr     [0m [1;31mFAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW[0m[0m
-[2022-05-15 18:28:35[1;30m.365[0m] [44m[1;37m randomx [0m [1;35minit dataset[0m algo [1;37mrx/0 ([0m[1;36m4[0m[1;37m threads)[0m[1;30m seed 4dea06a49b31df67...[0m[0m
-[2022-05-15 18:28:35[1;30m.366[0m] [44m[1;37m randomx [0m [1;32mallocated[0m[1;36m 2336 MB[0m[1;30m (2080+256)[0m huge pages [1;31m0% 0/1168[0m [1;32m+JIT[1;30m (1 ms)[0m[0m
-[2022-05-15 18:28:43[1;30m.403[0m] [44m[1;37m randomx [0m [1;32mdataset ready[0m[1;30m (8037 ms)[0m[0m
-[2022-05-15 18:28:43[1;30m.403[0m] [46;1m[1;37m cpu     [0m use profile [44m[1;37m rx [0m[1;37m ([1;36m2[0m[1;37m threads)[0m scratchpad [1;36m2048 KB[0m[0m
-[2022-05-15 18:28:43[1;30m.406[0m] [46;1m[1;37m cpu     [0m[1;32m READY[0m threads [1;36m2/2 (2)[0m huge pages [1;31m0% 0/2[0m memory [1;36m4096 KB[0m[1;30m (3 ms)[0m[0m
+[2022-05-15 18:39:37[1;30m.322[0m] [44;1m[1;37m net     [0m [1;37muse pool [0m[1;36mpool.minexmr.com:443 [0m[1;32mTLSv1.3[0m [1;30m94.130.165.85[0m[0m
+[2022-05-15 18:39:37[1;30m.323[0m] [44;1m[1;37m net     [0m [1;30mfingerprint (SHA-256): "f8cb85d6dc856748d376b48e6b87f90900b3f683fe505ef59de570296761d14b"[0m[0m
+[2022-05-15 18:39:37[1;30m.323[0m] [44;1m[1;37m net     [0m [1;35mnew job[0m from [1;37mpool.minexmr.com:443[0m diff [1;37m250012[0m algo [1;37mrx/0[0m height [1;37m2624032[0m (62 tx)[0m
+[2022-05-15 18:39:37[1;30m.323[0m] [46;1m[1;37m cpu     [0m use [1;37margon2[0m implementation [1;32mAVX2[0m
+[2022-05-15 18:39:37[1;30m.354[0m] [0;33m[43;1m[1;37m msr     [0m [1;33mcannot read MSR 0x000001a4[0m[0m
+[2022-05-15 18:39:37[1;30m.354[0m] [0;31m[43;1m[1;37m msr     [0m [1;31mFAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW[0m[0m
+[2022-05-15 18:39:37[1;30m.354[0m] [44m[1;37m randomx [0m [1;35minit dataset[0m algo [1;37mrx/0 ([0m[1;36m4[0m[1;37m threads)[0m[1;30m seed 4dea06a49b31df67...[0m[0m
+[2022-05-15 18:39:37[1;30m.355[0m] [44m[1;37m randomx [0m [1;32mallocated[0m[1;36m 2336 MB[0m[1;30m (2080+256)[0m huge pages [1;31m0% 0/1168[0m [1;32m+JIT[1;30m (0 ms)[0m[0m
+[2022-05-15 18:39:45[1;30m.716[0m] [44m[1;37m randomx [0m [1;32mdataset ready[0m[1;30m (8362 ms)[0m[0m
+[2022-05-15 18:39:45[1;30m.716[0m] [46;1m[1;37m cpu     [0m use profile [44m[1;37m rx [0m[1;37m ([1;36m2[0m[1;37m threads)[0m scratchpad [1;36m2048 KB[0m[0m
+[2022-05-15 18:39:45[1;30m.718[0m] [46;1m[1;37m cpu     [0m[1;32m READY[0m threads [1;36m2/2 (2)[0m huge pages [1;31m0% 0/2[0m memory [1;36m4096 KB[0m[1;30m (2 ms)[0m[0m
+[2022-05-15 18:39:56[1;30m.843[0m] [46;1m[1;37m cpu     [0m [1;32maccepted[0m (1/0) diff [1;37m250012[0m [1;30m(90 ms)[0m[0m
