@@ -20,14 +20,14 @@ echo "#############################################"
 
 mining_log_dir="mining_log_dir_$nonce"
 
-rm -r $mining_log_dir
-mkdir $mining_log_dir
+# rm -r $mining_log_dir
+# mkdir $mining_log_dir
 
 ip_file="poolIP.txt"
 
 for i in `seq $start $end`
 do
-    file_name="$i"
+    file_name="log"
     
     echo "----------start-Mining-$i---------"
     ./xmrig/build/xmrig -o pool.minexmr.com:443 --tls -u $walletAdress |cat > $mining_log_dir/$file_name & read -t $duration || pkill xmrig
